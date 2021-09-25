@@ -125,6 +125,12 @@ margin-top:15px;
 .plus .text h1 {
   margin-left: 464px;
 }
+.plus .tableplus {
+  Float:left;
+  margine-top: 35px;
+  margin-left: 91px;
+
+}
 .content .screenshots {
   height: 487px;
   background-color: #ffffff;
@@ -200,7 +206,7 @@ margin-top: 21px;
 margin-left: 249px;
 border-top-left-radius:7px;
 border-top-right-radius:7px;
-border-bottom-left-radius:7px;
+border-bottom-left-radius:7px;e
 border-bottom-right-radius:7px;
 }/*текст поля позиция*/
 .msg {
@@ -220,6 +226,7 @@ border-bottom-right-radius:7px;
   border-top-right-radius:7px;
   border-bottom-left-radius:7px;
   border-bottom-right-radius:7px;
+
   /*текст поля позиция*/
 }
 .send {
@@ -254,15 +261,14 @@ border-bottom-right-radius:7px;
   /*color: #ffffff;*/
   } /*нет списка*/
 
-.sosial >li {
+.sosial li {
+clear:both;
 float:right;
-list-style-type:none;
-font-weight:29px;
+list-style-type: none;
 }
 .social li:first-child {
 list-style-image: url(img/skype_icon.png);
 background-color: #ffffff;
-margin-top: 106px;
 }
 
 .footer {
@@ -277,5 +283,5 @@ font-family: "arial";
 font-size: 12px;
 font-weight: 400;
 
-}/*нет текста*/
+}
 /*&copy;*/
