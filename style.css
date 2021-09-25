@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body {
+  font-family: 'Arial';
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  }
+.header {
+  clear:both;
+  height: 323px;
+  background-color: #445162;
+}
+.text h3 {
+  float:left;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 367px;
+  height: 44px;
+  font-family: 'Arial';
+  font-size: 60px;
+  font-weight: 400;
+  color: #ffffff;
+  white-space:nowrap;
+}
+.list-img {
+  list-style-type:none;
+  width: 422px;
+  height: 127px;
+  padding-top:127px;
+  margin-left: 86px;
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  list-style-image: url(img/check_icon.png)
+}
+.list-img > li {
+margin-top:15px;
+}
+.Shape9 {
+
+  width: 469px;
+  height: 214px;
+  background-color: #ffffff;
+
+}
+.footer {
+  height: 535px;
+  background-color: #ffffff;
+  position:relative;
+  top:2328px;
+}
+.contacts {
+position: absolute;
+height: 509px;
+width: 1280px;
+background-color:#445162;
+}
+.contacts h2 {
+  float:left;
+  width: 117px;
+  height: 22px;
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 53px;
+  margin-left: 582px;
+  position: absolute;
+}
+.name {
+width: 500px;
+height: 40px;
+background-color: #ffffff;
+color: #445162;
+font-family: "Arial";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-top: 106px;
+margin-left: 249px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+}/*текст поля позиция*/
+.mail {
+width: 500px;
+height: 40px;
+background-color: #ffffff;
+color: #445162;
+font-family: "Arial";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-top: 21px;
+margin-left: 249px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+}/*текст поля позиция*/
+.msg {
+  margin: 0, auto;
+  width: 500px;
+  height: 170px;
+  background-color: #ffffff;
+  color: #445162;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 21px;
+  margin-left: 249px;
+  border-top-left-radius:7px;
+  border-top-right-radius:7px;
+  border-bottom-left-radius:7px;
+  border-bottom-right-radius:7px;
+  /*текст поля позиция*/
+}
+.send {
+width: 140px;
+height: 40px;
+background-color: #ffffff;
+font-family: "Arial Bold"; /*Поменять шрифт*/
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-top: 21px;
+margin-left: 429px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+}
+.social {
+  /*margin:auto;*/
+  list-style-type:none;
+  /*position: absolute;*/
+  margin-left: 824px;
+  margin-top:114px;
+  /*padding-top:114px;
+  margin-left: 824px;
+  margin-right: 291px;
+  margin-bottom: 380px;*/
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  /*color: #ffffff;*/
+  } /*нет списка*/
+
+.sosial >li {
+list-style-type:none;
+position: relative;
+font-weight:29px;
+}
+.social li:first-child {
+list-style-image: url(img/skype_icon.png);
+
+background-color: #ffffff;
+margin-top: 106px;
+}
+.Sbuttons {
+  position: absolute;
+  image: url('img/social_buttons.png')
+  width: 240px;
+  height: 42px;
+  padding-bottom:174px;
+  margin-right:794;
+} /*нет картинки*/
+.copyright{
+clear:both;
+text-align:center;
+color: #445162;
+font-family: "Arial";
+font-size: 12px;
+font-weight: 400;
+
+}/*нет текста*/
+/*&copy;*/
