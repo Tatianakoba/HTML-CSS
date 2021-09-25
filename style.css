@@ -131,6 +131,11 @@ margin-top:15px;
   margin-left: 91px;
 
 }
+.tableplus td {
+  padding-left: 9px;
+}
+/*поменять расположение в ячейках таблицы, через одну*/
+
 .content .screenshots {
   height: 487px;
   background-color: #ffffff;
@@ -139,13 +144,23 @@ margin-top:15px;
   margin-left: 571px;
 }
 
-.content .rewiews {
+.content .reviews {
   height: 424px;
   background-color: #f5f5f5;
 }
-.rewiews .text h1 {
+.reviews .text h1 {
   margin-left: 585px;
 }
+.reviews .tablereview {
+  Float:left;
+  margine-top: 35px;
+  margin-left: 141px;
+  /*background-color: #ebebeb; настроить ячейки таблицы через одну и выбрать форму*/
+}
+.tablereview td {
+  padding-left: 9px;
+}
+/*поменять расположение в ячейках таблицы*/
 .content .buy {
   height: 655px;
   background-color: #ffffff;
