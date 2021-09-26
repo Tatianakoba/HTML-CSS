@@ -20,7 +20,7 @@
   width: 1280px;
   height: 2863px;
   margin: 0 auto;
-  /* width: 90%;
+  /*width: 90%;
     margin: 10px auto;
     padding: 1em;
     box-shadow:
@@ -264,7 +264,7 @@ font-size: 24px;
 font-weight: 400;
 }
 .Premium .price {
-  width: 298px;
+  width: 296px;
   height: 71px;
   margin-left: 2px;
   margin-right: 2px;
@@ -332,6 +332,19 @@ background-color:#445162;
   margin-top: 53px;
   margin-left: 582px;
 }
+.contacts .tablesocial {
+  float:right;
+  font-family: arial;
+  font-size: 16px;
+  color: #ffffff;
+  height: 142px;
+  margin-right: 291px;
+  margin-top: 95px;
+  }
+  .tablesocial td{
+  padding-top:10px;
+  padding-right:10px;
+  }
 .contacts .form {
 height: 340px;
 width: 500px;
@@ -368,7 +381,7 @@ border-bottom-left-radius:7px;e
 border-bottom-right-radius:7px;
 }/*текст поля позиция*/
 .msg {
-  margin-top:0 px;
+  margin: 0 px;
   width: 500px;
   height: 170px;
   background-color: #ffffff;
@@ -400,35 +413,11 @@ border-top-right-radius:7px;
 border-bottom-left-radius:7px;
 border-bottom-right-radius:7px;
 }
-.social {
-  float:right;
-  list-style-type:none;
-  margin-right: 291px;
-  margin-bottom:380px;
-  /*padding-top:114px;
-  margin-left: 824px;
-  margin-right: 291px;
-  margin-bottom: 380px;*/
-  font-family: "arial";
-  font-size: 16px;
-  font-weight: 400;
-  /*color: #ffffff;*/
-  } /*нет списка*/
 
-.sosial li {
-float:right;
-list-style-type: none;
-margin-left: 824px;
-margin-top: 39px;
-}
-.social li:first-child {
-list-style-image: url(img/skype_icon.png);
-background-color: #445162;
-}
 .contacts .Sbuttons {
  float:right;
  margin-right: 246px;
- margin-top:293px;
+
 } /*нет картинки*/
 .footer {
   clear:both;
