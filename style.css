@@ -144,10 +144,8 @@ margin-top:15px;
 }
 .screenshots .tablescreen {
   Float:left;
-  
   margin-left: 50px;
-  /*вставить фигурные картинки бэкграундом, настроить ячейки таблицы через одну*/
-}
+  }
 .tablescreen td {
   padding-top:10px;
   padding-right:40px;
@@ -155,8 +153,9 @@ margin-top:15px;
 }
 .tablescreen  tr {
   vertical-align: middle;
+
 }
-.tablescreen h1: {
+.tablescreen h1 {
 color: #445161;
 font-family: 'arial';
 font-size: 14px;
@@ -165,20 +164,29 @@ font-weight: 400;
 .content .reviews {
   height: 424px;
   background-color: #f5f5f5;
+  font-family: 'arial_italic';
+  color: #445161;
 } /*ШРИФТ!!!*/
 .reviews .text h1 {
   margin-left: 585px;
 }
 .reviews .tablereview {
   Float:left;
-  margine-top: 35px;
   margin-left: 50px;
-  /*background-color: #ebebeb; настроить ячейки таблицы через одну и выбрать форму*/
-}
+  }
 .tablereview td {
-  padding-left: 9px;
+  padding-top:40px;
+  padding-right:40px;
+  vertical-align: middle;
+background-image: url(img/bg_review_190.png);
 }
-/*поменять расположение в ячейках таблицы*/
+/*.tablereview td:nth-child (2){
+background-image: url(img/bg_review_190.png);
+}*/
+/*изучить вопрос четного ребенка*/
+.tablereview tr {
+  vertical-align: middle;
+}
 .content .buy {
   position:relative;
   height: 655px;
@@ -204,7 +212,7 @@ font-weight: 400;
   width: 260px;
   height: 40px;
   background-color: #ffffff;
-font-family: arial bold; /*Поменять шрифт*/
+font-family: 'arial bold'; /*ШРИФТ!!!*/
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
