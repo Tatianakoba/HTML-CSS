@@ -136,7 +136,7 @@ margin-top:15px;
 .content .screenshots {
   height: 487px;
   background-color: #ffffff;
-  font-family: 'arial_italic'; /*ШРИФТ!!!*/
+  font-family: 'arial';
   color: #445161;
 }
 .screenshots .text h1 {
@@ -144,24 +144,28 @@ margin-top:15px;
 }
 .screenshots .tablescreen {
   Float:left;
-  margine-top: 35px;
+  
   margin-left: 50px;
   /*вставить фигурные картинки бэкграундом, настроить ячейки таблицы через одну*/
 }
 .tablescreen td {
-  padding-left: 9px;
+  padding-top:10px;
+  padding-right:40px;
+  vertical-align: middle;
 }
-/*поменять расположение в ячейках таблицы*/
+.tablescreen  tr {
+  vertical-align: middle;
+}
 .tablescreen h1: {
 color: #445161;
 font-family: 'arial';
-font-size: 24px;
+font-size: 14px;
 font-weight: 400;
 } /*разобраться со шрифтом*/
 .content .reviews {
   height: 424px;
   background-color: #f5f5f5;
-}
+} /*ШРИФТ!!!*/
 .reviews .text h1 {
   margin-left: 585px;
 }
